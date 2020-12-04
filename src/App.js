@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import HolaMundo from "./Components/HolaMundo";
+import AdiosMundo from "./Components/AdiosMundo";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Ivan Gabriel
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <HolaMundo/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <AdiosMundo/>
       </header>
     </div>
   );
